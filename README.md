@@ -6,7 +6,7 @@ First, motion primitives (such as grasps, moves, etc) should be defined by the u
 
 Then, once a task is published on the appropriate topic (/task), the planner and orchestrator are started and the task is carried out.
 
-#Design guidelines
+# Design guidelines
 Ideally, the primitives should return some feedback (such as a syntax check) if they are misused to allow the orchestrator LLM to fix its mistakes. We are currently investigating mechanisms to systematically design such feedback mechanisms, along with other ways of increasing the robustness of the pipeline.
 
 Author: Émiland Garrabé (garrabe@isir.upmc.fr). Prototype module designed as part of ongoing works, will be updated as work advances.
